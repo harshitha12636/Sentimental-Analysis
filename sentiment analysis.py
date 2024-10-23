@@ -19,11 +19,5 @@ def analyze_sentiment(text):
         return "Neutral"
 
 # Test the function
-text = "I love this product!"
+text = input("enter the sentence:" )
 print(analyze_sentiment(text))  
-
-text = "I hate this product!"
-print(analyze_sentiment(text))  
-
-text = "This product is okay."
-print(analyze_sentiment(text)) 
